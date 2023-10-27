@@ -1,5 +1,7 @@
 node_modules
+commands.txt
 spaces.http
 test
 cdk.out
 .vscode
+outputs.json

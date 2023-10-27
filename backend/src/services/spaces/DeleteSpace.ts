@@ -1,6 +1,6 @@
 import { DeleteItemCommand, DynamoDBClient, UpdateItemCommand } from "@aws-sdk/client-dynamodb";
 import { APIGatewayProxyEvent, APIGatewayProxyResult } from "aws-lambda";
-import { hasAdminGroup } from "../../infra/Utils";
+import { hasAdminGroup } from "../../services/shared/Utils";
 
 export async function deleteSpace(event: APIGatewayProxyEvent, ddbClient: DynamoDBClient): Promise<APIGatewayProxyResult> {
 
