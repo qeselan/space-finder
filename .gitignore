@@ -1,0 +1,5 @@
+node_modules
+spaces.http
+test
+cdk.out
+.vscode
